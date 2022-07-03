@@ -2,17 +2,17 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8"/>
-    <title>Twitter Bootstrap Example</title>
+    <title>PP 3_1_1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <!-- See configuration in WebMvConfig.java -->
-    <link th:href="@{/bootstrap/css/bootstrap.min.css}"
+    <link th:href="@{/webjars/bootstrap/5.1.3/css/bootstrap.min.css}"
           rel="stylesheet" media="screen"/>
 
 
-    <script th:src="@{/jquery/jquery.min.js}"></script>
-    <script th:src="@{/popper/popper.min.js}"></script>
-    <script th:src="@{/bootstrap/js/bootstrap.min.js}"></script>
+    <script th:src="@{/webjars/jquery/3.6.0/jquery.min.js}"></script>
+<!--    <script th:src="@{/webjars/popper/js/popper.min.js}"></script>-->
+    <script th:src="@{/webjars/bootstrap/5.1.3/js/bootstrap.min.js}"></script>
 
 </head>
 <body>
@@ -52,7 +52,7 @@
             <h3 class="pb-4 mb-4 fst-italic border-bottom">
                 Users <button class="btn-primary " data-bs-toggle="modal" data-bs-target="#addUserModal">add User</button>
             </h3>
-            <!-- Modal -->
+            <!------------------------------------------- Modal  For add user ----------------------------------->
             <div class="modal fade" id="addUserModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">

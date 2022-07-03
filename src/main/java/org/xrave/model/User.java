@@ -1,7 +1,5 @@
 package org.xrave.model;
 
-import org.springframework.stereotype.Component;
-
 import javax.persistence.*;
 
 
@@ -16,6 +14,9 @@ public class User {
     private String email;
     private byte age;
 
+    public User() {
+
+    }
     public Long getId() {
         return id;
     }
